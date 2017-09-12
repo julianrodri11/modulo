@@ -127,7 +127,7 @@ function Enviar(){
                     </div>
                       <div class="row">
 
-                      <!--div class="file-field input-field">
+                      <div class="file-field input-field">
                         <div class="btn">
                           <span>Cargar</span>
                           <input type="file" name="archivos"
@@ -138,7 +138,7 @@ function Enviar(){
                           <input class="file-path validate" type="text">
                           <label for="icon_prefix">Por favor seleccione la base de datos</label>
                         </div>
-                      </div-->
+                      </div>
 
 
                     </div>
