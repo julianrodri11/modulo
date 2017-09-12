@@ -1,6 +1,17 @@
 # MODULO DE GESTIÓN DE USUARIOS
 
-Este módulo permite administrar usuarios perfiles, módulos, opciones, accesos al sistema, copias de seguridad,
+Este módulo permite
+
+#FUNCIONALIDADES
+  * Permite crear usuarios para autenticación
+  * Permite recuperar la contraseña en caso de perdida
+  * Permite bloquear al usuario si realiza más de 4 intentos
+  * Permite gestionar las contraseñas de los usuarios a través de un token de recuperación
+  * Permite administrar si un usuario puede o no ingresar al sistema
+  * Permite agregar funcionalides a los usuarios dependiendo del perfil
+  * Permite realizar copias de seguridad de la base de datos 
+  * Permite actualizar los datos del usuario, perfiles, modulos, opciones, 
+  * Permite la busqueda de información por varias columnas
 
 ## REQUISITOS ANTES DE LA INSTALACIÓN
 
@@ -62,16 +73,7 @@ Se recomienda usar xampp, wampp
 
 Una vez realizado la instalación correctamente eliminar la carpeta modulo-> autogenerado 
 
-#FUNCIONALIDADES
-  * Permite crear usuarios para autenticación
-  * Permite recuperar la contraseña en caso de perdida
-  * Permite bloquear al usuario si realiza más de 4 intentos
-  * Permite gestionar las contraseñas de los usuarios a través de un token de recuperación
-  * Permite administrar si un usuario puede o no ingresar al sistema
-  * Permite agregar funcionalides a los usuarios dependiendo del perfil
-  * Permite realizar copias de seguridad de la base de datos 
-  * Permite actualizar los datos del usuario, perfiles, modulos, opciones, 
-  * Permite la busqueda de información por varias columnas
+
  
 #Tecnologías usadas.
   * PHP
