@@ -1,0 +1,64 @@
+  html {
+    /*/font-family: GillSans, Calibri, Trebuchet, sans-serif;*/
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .bajar {
+    position: relative;
+    padding-top: 10%;
+  }
+  
+  nav {
+    background-color: #009688;
+  }
+  
+  .page-footer {
+    background-color: #009688 !important;
+  }
+
+element.style {
+}
+
+.iconosj{
+    padding: 15px 5px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+
+* { 
+  margin: 0; 
+  padding: 0; 
+}
+body { 
+  font: 14px/1.4 Georgia, Serif; 
+}
+#page-wrap {
+  margin: 50px;
+}
+p {
+  margin: 20px 0; 
+}
+
+  /* 
+  Generic Styling, for Desktops/Laptops 
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    text-align: left; 
+  }

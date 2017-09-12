@@ -1,0 +1,78 @@
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #cbd773;
+  border-radius: 0;
+  outline: none;
+  height: 1.8rem;
+  width: 100%;
+  font-size: 1rem;
+  /*margin: 0 0 5px 0;*/
+  padding: 0;
+  box-shadow: none;
+  box-sizing: content-box;
+  transition: all 0.3s
+}
+textarea.materialize-textarea
+{
+  min-height: 1.8rem;
+}
+
+.btn, .btn-large {
+  background-color:#333333;
+}
+
+.btn:hover, .btn-large:hover {
+  background-color: #cbd773;
+}
+
+.file-field .btn, .file-field .btn-large {
+  float: right;
+  height: 2rem;
+  line-height: 2rem;
+}
+
+.side-nav {
+  background-color: #d1d1d1;
+}
+a{
+  color:#132705;
+}
+.lime-text.text-lighten-1 {
+    color: #008643 !important;
+}
+* { 
+  margin: 0; 
+  padding: 0; 
+}
+body { 
+  font: 14px/1.4 Georgia, Serif; 
+}
+#page-wrap {
+  margin: 50px;
+}
+p {
+  margin: 20px 0; 
+}
+
+  /* 
+  Generic Styling, for Desktops/Laptops 
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    text-align: left; 
+  }
